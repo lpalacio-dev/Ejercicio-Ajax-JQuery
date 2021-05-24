@@ -1,0 +1,88 @@
+* {box-sizing: border-box;  
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dbe2ef; 
+}
+
+.row{
+    width: 45%;
+    padding: 5px;
+    margin: 0px auto;
+    font-family: var(--fuente2);
+}
+.row label{
+  width:20%;
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+}
+.row.principal{
+    text-align: center;
+}
+
+.row.principal h2{
+    padding: 10px;
+}
+
+/* Full-width input fields */
+input[type=text]  {
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f9f7f7;
+}
+
+input[type=text]:focus {
+  background-color: #b9b8b8;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f9f7f7;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:#3f72af;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px auto;
+  margin-bottom: 30px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius:10px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.eliminar:hover{
+  background-color:red;
+}
+
+.resultado{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #36c186; 
+  text-align: center;
+  padding:10px 0px;
+}
+
+.resultado span{
+  color: rgb(0, 0, 0);
+}
+
